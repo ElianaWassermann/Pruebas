@@ -34,16 +34,7 @@
     </header>
 
     <main id="content" class="main-content" role="main">
-      {{  
-        <div id="header">Header</div>
-        <div id="main-wrap">
-          <div id="sidebar">Left Nav</div>
-          <div id="content-wrap">Content</div>
-        </div>
-        <div id="footer">Footer</div> }}
-      
-       
-
+      {{ content }}
       <footer class="site-footer">
         {% if site.github.is_project_page %}
           <span class="site-footer-owner"><a href="{{ site.github.repository_url }}">{{ site.github.repository_name }}</a> is maintained by <a href="{{ site.github.owner_url }}">{{ site.github.owner_name }}</a>.</span>

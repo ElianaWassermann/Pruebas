@@ -1,5 +1,5 @@
 ---
-layout: principal
+layout: default
 title: CVDataScience
 ---
 
